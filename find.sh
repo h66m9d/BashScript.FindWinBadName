@@ -239,3 +239,4 @@ echo '^.*\s$' >> badname.txt
 find . -type d -printf "%f\n" | grep "^.*\s$" >> badname.txt
 echo " " >> badname.txt
 echo "------------------" >> badname.txt
+
